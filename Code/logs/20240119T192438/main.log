@@ -1,0 +1,5 @@
+2024-01-19 19:24:38.684 [info] update#setState idle
+2024-01-19 19:25:08.687 [info] update#setState checking for updates
+2024-01-19 19:25:08.696 [info] update#setState available for download
+2024-01-20 18:02:40.463 [info] Extension host with pid 155808 exited with code: 0, signal: unknown.
+2024-01-20 18:02:40.465 [error] Blocked vscode-file request vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService

@@ -1,0 +1,8 @@
+[Game]
+Name_Pl2=Player 2
+
+[KgDifficulty]
+Level=Easy
+
+[MainWindow]
+ToolBarsMovable=Disabled

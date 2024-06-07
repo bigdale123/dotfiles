@@ -1,0 +1,23 @@
+2024/06/02-10:05:42.929 130f8 Reusing MANIFEST /home/dylan/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/02-10:05:42.930 130f8 Recovering log #46
+2024/06/02-10:05:42.951 130f8 Reusing old log /home/dylan/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000046.log 
+2024/06/02-10:05:42.952 130f8 Delete type=2 #44
+2024/06/02-10:05:42.952 130f8 Delete type=2 #47
+2024/06/02-16:45:07.168 130f7 Level-0 table #51: started
+2024/06/02-16:45:07.199 130f7 Level-0 table #51: 1092096 bytes OK
+2024/06/02-16:45:07.203 130f7 Delete type=0 #46
+2024/06/02-16:45:43.699 130f7 Compacting 1@1 + 1@2 files
+2024/06/02-16:45:43.742 130f7 Generated table #52@1: 4112 keys, 961064 bytes
+2024/06/02-16:45:43.742 130f7 Compacted 1@1 + 1@2 files => 961064 bytes
+2024/06/02-16:45:43.743 130f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/02-16:45:43.743 130f7 Delete type=2 #51
+2024/06/02-16:45:43.743 130f7 Delete type=2 #48
+2024/06/03-21:50:30.550 130f8 Level-0 table #54: started
+2024/06/03-21:50:30.598 130f8 Level-0 table #54: 1194337 bytes OK
+2024/06/03-21:50:30.599 130f8 Delete type=0 #50
+2024/06/03-21:53:43.809 1310d Compacting 1@1 + 1@2 files
+2024/06/03-21:53:43.840 1310d Generated table #55@1: 4356 keys, 974422 bytes
+2024/06/03-21:53:43.841 1310d Compacted 1@1 + 1@2 files => 974422 bytes
+2024/06/03-21:53:43.842 1310d compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/06/03-21:53:43.842 1310d Delete type=2 #52
+2024/06/03-21:53:43.842 1310d Delete type=2 #54

@@ -1,0 +1,30 @@
+00:00:00.507364 VirtualBox GUI VM Selector Window 7.0.18 r162988 linux.amd64 (May  3 2024 17:29:05) release log
+00:00:00.507367 Log opened 2024-05-11T04:57:34.911833000Z
+00:00:00.507368 Build Type: release
+00:00:00.507371 OS Product: Linux
+00:00:00.507372 OS Release: 6.8.7-arch1-2
+00:00:00.507373 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 19 Apr 2024 09:51:31 +0000
+00:00:00.507408 DMI Product Name: 20MVS03800
+00:00:00.507432 DMI Product Version: ThinkPad A485
+00:00:00.507441 Firmware type: UEFI
+00:00:00.508254 Secure Boot: Disabled
+00:00:00.508314 Host RAM: 14862MB (14.5GB) total, 8655MB (8.4GB) available
+00:00:00.508318 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.508319 Process ID: 151870
+00:00:00.508320 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.508362 Qt version: 5.15.13
+00:00:00.509356 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.513464 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.513492 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.373257 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 2882x26 x 476x1049
+00:00:01.373676 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2402x26 x 476x1049
+00:00:01.373699 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1925x26 x 473x1049
+00:05:54.807052 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:54.885779 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:30.481362 GUI: UIMediumEnumerator: Medium with key={{19a58a48-4261-4a01-8cda-24936f7b62fe}} created
+00:06:30.528731 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:32.207766 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:32.253180 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:33.693009 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:06:45.734932 GUI: UICommon: Handling aboutToQuit request..
+00:06:47.092544 GUI: UICommon: aboutToQuit request handled!

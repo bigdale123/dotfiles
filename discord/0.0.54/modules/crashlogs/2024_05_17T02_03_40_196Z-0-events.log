@@ -1,0 +1,164 @@
+2024-05-17T02:03:40.217Z 0: 
+
+----------------------------------------------
+2024-05-17T02:03:40.246Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-17T02:03:40.256Z 2: ✅ webContents.created web1 ""
+2024-05-17T02:03:40.275Z 3: ✅ window.created win1 "discord"
+2024-05-17T02:03:40.767Z 4: ✅ webContents.did-finish-load web1
+2024-05-17T02:04:33.269Z 5: ✅ webContents.created web2 ""
+2024-05-17T02:04:33.313Z 6: ✅ window.created win2 "Discord"
+2024-05-17T02:04:36.329Z 7: ✅ webContents.did-finish-load web2
+2024-05-17T02:04:36.429Z 8: window.close win1
+2024-05-17T02:04:36.457Z 9: webContents.destroyed web1
+2024-05-17T02:04:36.465Z 10: window.closed win1
+2024-05-17T13:09:35.040Z 11: before-quit
+2024-05-17T13:13:56.535Z 0: 
+
+----------------------------------------------
+2024-05-17T13:13:56.569Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-17T13:13:56.594Z 2: ✅ webContents.created web1 ""
+2024-05-17T13:13:56.604Z 3: ✅ window.created win1 "discord"
+2024-05-17T13:13:57.121Z 4: ✅ webContents.did-finish-load web1
+2024-05-17T13:13:57.286Z 5: ✅ webContents.created web2 ""
+2024-05-17T13:13:57.318Z 6: ✅ window.created win2 "Discord"
+2024-05-17T13:13:59.902Z 7: ✅ webContents.did-finish-load web2
+2024-05-17T13:14:00.002Z 8: window.close win1
+2024-05-17T13:14:00.021Z 9: webContents.destroyed web1
+2024-05-17T13:14:00.025Z 10: window.closed win1
+2024-05-18T20:25:06.045Z 11: before-quit
+2024-05-18T20:25:06.058Z 12: window.close win2
+2024-05-18T20:25:06.130Z 13: webContents.destroyed web2
+2024-05-18T20:25:06.150Z 14: window.closed win2
+2024-05-18T20:25:06.178Z 15: will-quit
+2024-05-18T21:33:13.697Z 0: 
+
+----------------------------------------------
+2024-05-18T21:33:13.730Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-18T21:33:13.751Z 2: ✅ webContents.created web1 ""
+2024-05-18T21:33:13.760Z 3: ✅ window.created win1 "discord"
+2024-05-18T21:33:14.059Z 4: ✅ webContents.did-finish-load web1
+2024-05-18T21:33:14.532Z 5: ✅ webContents.created web2 ""
+2024-05-18T21:33:14.561Z 6: ✅ window.created win2 "Discord"
+2024-05-18T21:33:18.466Z 7: ✅ webContents.did-finish-load web2
+2024-05-18T21:33:18.566Z 8: window.close win1
+2024-05-18T21:33:18.580Z 9: webContents.destroyed web1
+2024-05-18T21:33:18.583Z 10: window.closed win1
+2024-05-20T14:23:53.943Z 11: before-quit
+2024-05-20T14:23:53.950Z 12: window.close win2
+2024-05-20T14:23:53.964Z 13: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+2024-05-20T17:15:10.230Z 0: 
+
+----------------------------------------------
+2024-05-20T17:15:10.256Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-20T17:15:10.275Z 2: ✅ webContents.created web1 ""
+2024-05-20T17:15:10.280Z 3: ✅ window.created win1 "discord"
+2024-05-20T17:15:10.674Z 4: ✅ webContents.did-finish-load web1
+2024-05-20T17:15:10.835Z 5: ✅ webContents.created web2 ""
+2024-05-20T17:15:10.856Z 6: ✅ window.created win2 "Discord"
+2024-05-20T17:15:13.318Z 7: ✅ webContents.did-finish-load web2
+2024-05-20T17:15:13.417Z 8: window.close win1
+2024-05-20T17:15:13.427Z 9: webContents.destroyed web1
+2024-05-20T17:15:13.429Z 10: window.closed win1
+2024-05-22T17:41:40.240Z 11: before-quit
+2024-05-22T17:41:40.251Z 12: window.close win2
+2024-05-22T17:41:40.311Z 13: webContents.destroyed web2
+2024-05-22T17:41:40.328Z 14: window.closed win2
+2024-05-22T17:41:44.193Z 0: 
+
+----------------------------------------------
+2024-05-22T17:41:44.214Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-22T17:41:44.231Z 2: ✅ webContents.created web1 ""
+2024-05-22T17:41:44.233Z 3: ✅ window.created win1 "discord"
+2024-05-22T17:41:44.531Z 4: ✅ webContents.did-finish-load web1
+2024-05-22T17:48:31.260Z 5: window.close win1
+2024-05-22T17:48:31.280Z 6: webContents.destroyed web1
+2024-05-22T17:48:35.680Z 0: 
+
+----------------------------------------------
+2024-05-22T17:48:35.706Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-22T17:48:35.730Z 2: ✅ webContents.created web1 ""
+2024-05-22T17:48:35.735Z 3: ✅ window.created win1 "discord"
+2024-05-22T17:48:36.001Z 4: ✅ webContents.did-finish-load web1
+2024-05-22T17:53:19.910Z 5: before-quit
+2024-05-22T17:54:12.722Z 0: 
+
+----------------------------------------------
+2024-05-22T17:54:12.744Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-22T17:54:12.764Z 2: ✅ webContents.created web1 ""
+2024-05-22T17:54:12.769Z 3: ✅ window.created win1 "discord"
+2024-05-22T17:54:13.164Z 4: ✅ webContents.did-finish-load web1
+2024-05-22T17:54:13.280Z 5: ✅ webContents.created web2 ""
+2024-05-22T17:54:13.299Z 6: ✅ window.created win2 "Discord"
+2024-05-22T17:54:16.206Z 7: ✅ webContents.did-finish-load web2
+2024-05-22T17:54:16.306Z 8: window.close win1
+2024-05-22T17:54:16.315Z 9: webContents.destroyed web1
+2024-05-22T17:54:16.317Z 10: window.closed win1
+2024-05-25T22:27:29.760Z 0: 
+
+----------------------------------------------
+2024-05-25T22:27:29.802Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-25T22:27:29.829Z 2: ✅ webContents.created web1 ""
+2024-05-25T22:27:29.835Z 3: ✅ window.created win1 "discord"
+2024-05-25T22:27:30.388Z 4: ✅ webContents.did-finish-load web1
+2024-05-25T22:27:30.809Z 5: ✅ webContents.created web2 ""
+2024-05-25T22:27:30.849Z 6: ✅ window.created win2 "Discord"
+2024-05-25T22:27:35.127Z 7: ✅ webContents.did-finish-load web2
+2024-05-25T22:27:35.228Z 8: window.close win1
+2024-05-25T22:27:35.244Z 9: webContents.destroyed web1
+2024-05-25T22:27:35.247Z 10: window.closed win1
+2024-05-28T16:43:14.992Z 0: 
+
+----------------------------------------------
+2024-05-28T16:43:15.024Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-28T16:43:15.045Z 2: ✅ webContents.created web1 ""
+2024-05-28T16:43:15.050Z 3: ✅ window.created win1 "discord"
+2024-05-28T16:43:15.574Z 4: ✅ webContents.created web2 ""
+2024-05-28T16:43:15.592Z 5: ✅ window.created win2 "Discord"
+2024-05-28T16:43:15.597Z 6: ✅ webContents.did-finish-load web1
+2024-05-28T16:43:18.220Z 7: ✅ webContents.did-finish-load web2
+2024-05-28T16:43:18.320Z 8: window.close win1
+2024-05-28T16:43:18.331Z 9: webContents.destroyed web1
+2024-05-28T16:43:18.332Z 10: window.closed win1
+2024-05-30T17:11:00.656Z 11: before-quit
+2024-05-30T17:11:00.658Z 12: window.close win2
+2024-05-30T17:11:00.745Z 13: webContents.destroyed web2
+2024-05-30T17:11:00.759Z 14: window.closed win2
+2024-05-30T17:11:10.623Z 0: 
+
+----------------------------------------------
+2024-05-30T17:11:10.643Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-05-30T17:11:10.661Z 2: ✅ webContents.created web1 ""
+2024-05-30T17:11:10.664Z 3: ✅ window.created win1 "discord"
+2024-05-30T17:11:10.988Z 4: ✅ webContents.did-finish-load web1
+2024-05-30T17:11:11.925Z 5: ✅ webContents.created web2 ""
+2024-05-30T17:11:11.944Z 6: ✅ window.created win2 "Discord"
+2024-05-30T17:11:14.790Z 7: ✅ webContents.did-finish-load web2
+2024-05-30T17:11:14.889Z 8: window.close win1
+2024-05-30T17:11:14.902Z 9: webContents.destroyed web1
+2024-05-30T17:11:14.904Z 10: window.closed win1
+2024-06-05T00:05:58.972Z 11: before-quit
+2024-06-05T00:05:58.989Z 12: window.close win2
+2024-06-05T01:02:09.751Z 0: 
+
+----------------------------------------------
+2024-06-05T01:02:09.777Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules
+2024-06-05T01:02:09.794Z 2: ✅ webContents.created web1 ""
+2024-06-05T01:02:09.798Z 3: ✅ window.created win1 "discord"
+2024-06-05T01:02:10.179Z 4: ✅ webContents.did-finish-load web1
+2024-06-05T01:02:10.362Z 5: ✅ webContents.created web2 ""
+2024-06-05T01:02:10.388Z 6: ✅ window.created win2 "Discord"
+2024-06-05T01:02:13.109Z 7: ✅ webContents.did-finish-load web2
+2024-06-05T01:02:13.208Z 8: window.close win1
+2024-06-05T01:02:13.217Z 9: webContents.destroyed web1
+2024-06-05T01:02:13.219Z 10: window.closed win1
+2024-06-05T01:02:19.213Z 11: window.close win2
+2024-06-05T01:02:24.768Z 0: 
+
+----------------------------------------------
+2024-06-05T01:02:24.804Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/dylan/.config/discord/0.0.54/modules

@@ -1,0 +1,17 @@
+[General Settings]
+Cardname=svg-standard
+
+[KgTheme]
+Theme=themes/cleangreen.desktop
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Scores]
+loosestreak0=0
+maxloosestreak0=2
+maxwinstreak0=1
+minmoves0=212
+total0=3
+winstreak0=1
+won0=1

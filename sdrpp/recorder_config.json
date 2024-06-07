@@ -1,0 +1,10 @@
+{
+    "Recorder": {
+        "audioStream": "Radio",
+        "audioVolume": 0.48828125,
+        "container": "WAV",
+        "ignoreSilence": true,
+        "mode": 1,
+        "sampleType": 1
+    }
+}

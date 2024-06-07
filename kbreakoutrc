@@ -1,0 +1,5 @@
+[KgTheme]
+Theme=themes/crystal.desktop
+
+[MainWindow]
+ToolBarsMovable=Disabled

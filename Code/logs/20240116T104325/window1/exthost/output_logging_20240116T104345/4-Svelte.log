@@ -1,0 +1,14 @@
+Initialize language server at  file:///home/dylan/Seafile/My%20Library/Temp_Git_Files/bigdale123.github.io
+Initialize new ts service at  /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/dev/jsconfig.json
+Trying to load configs for /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/dev
+Error while loading config at  /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/dev/svelte.config.js
+SyntaxError: Unexpected identifier 'preprocess'
+    at ESMLoader.moduleStrategy (node:internal/modules/esm/translators:119:18)
+    at ESMLoader.moduleProvider (node:internal/modules/esm/loader:468:14)
+    at async link (node:internal/modules/esm/module_job:68:21)
+Found svelte.config.js but there was an error loading it. Using https://github.com/sveltejs/svelte-preprocess as fallback
+SnapshotManager File Statistics:
+Project files: 7
+Svelte files: 1
+From node_modules: 0
+Total: 7

@@ -1,0 +1,12 @@
+2024-03-27 15:14:24.793 [info] Extension host with pid 57282 started
+2024-03-27 15:14:24.793 [info] Skipping acquiring lock for /home/dylan/.config/Code/User/workspaceStorage/9cbf53a995c3ba156964b0aac12d3f7e.
+2024-03-27 15:14:24.964 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-27 15:14:25.094 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-27 15:14:25.268 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-27 15:14:25.307 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 15:14:25.485 [info] Eager extensions activated
+2024-03-27 15:14:25.542 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 15:14:25.545 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 15:14:25.558 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 15:14:38.325 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-27 15:14:38.342 [info] Extension host with pid 57282 exiting with code 0

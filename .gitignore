@@ -3,6 +3,7 @@
 
 # Include gitignore file
 !.gitignore
+!kickstart.sh
 
 # Include specified directories and all their contents
 

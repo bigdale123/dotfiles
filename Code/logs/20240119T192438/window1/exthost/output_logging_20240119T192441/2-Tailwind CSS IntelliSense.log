@@ -1,7 +1,0 @@
-[Global] Creating projects: [{"folder":"/home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io","configPath":"/home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/tailwind.config.cjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/tailwind.config.cjs","priority":0},{"pattern":"/home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/src/**/*.{html,js,svelte,ts}","priority":1},{"pattern":"/home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/**","priority":3}]}]
-[Global] Adding watch patterns: /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/tailwind.config.cjs, /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io
-[tailwind.config.cjs] Initializing...
-[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/tailwind.config.cjs
-[tailwind.config.cjs] Loaded postcss v8.4.33: /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/node_modules/postcss
-[tailwind.config.cjs] Loaded tailwindcss v3.4.1: /home/dylan/Seafile/My Library/Temp_Git_Files/bigdale123.github.io/node_modules/tailwindcss
-[tailwind.config.cjs] Building...

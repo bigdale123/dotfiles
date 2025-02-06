@@ -5,8 +5,6 @@
 !.gitignore
 
 # Include specified directories and all their contents
-!Code/
-!Code/**
 
 !dunst/
 !dunst/**

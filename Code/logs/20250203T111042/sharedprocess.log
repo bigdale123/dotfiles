@@ -1,8 +1,0 @@
-2025-02-03 11:10:45.703 [error] Error: Unable to write file '/nix/store/s1gwmg69zwprfnrs4nwk372mp7smw2n3-vscode-extensions/share/vscode/extensions/bbenoist.Nix/package.json' (Unknown (FileSystemError): Error: EROFS: read-only file system, open '/nix/store/s1gwmg69zwprfnrs4nwk372mp7smw2n3-vscode-extensions/share/vscode/extensions/bbenoist.Nix/package.json')
-    at wh.writeFile (file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:86455)
-    at async Fu.updateMetadata (file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:35557)
-    at async file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:75189
-    at async Promise.all (index 0)
-    at async dh.I (file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:75064)
-    at async dh.cleanUp (file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:68524)
-    at async fh.cleanUp (file:///nix/store/67ag6r2yl2xqjxn4qan53qvx1sqz8n7j-vscode-1.96.4/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:62190)

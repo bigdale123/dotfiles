@@ -15,8 +15,17 @@
 !i3status/
 !i3status/**
 
+!waybar/
+!waybar/**
+
+!hypr/
+!hypr/**
+
 !kitty/
 !kitty/**
+
+!alacritty/
+!alacritty/**
 
 !nvim/
 !nvim/**
@@ -35,3 +44,6 @@
 
 !discord/
 !discord/settings.json
+
+!wallpapers/
+!wallpapers/**

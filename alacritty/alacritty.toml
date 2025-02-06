@@ -1,1 +1,5 @@
-/nix/store/zgmgk9srip99s6xblk2lmqayykhs3kvn-home-manager-files/.config/alacritty/alacritty.toml
+[font]
+size = 8
+
+[window]
+opacity = 0.8

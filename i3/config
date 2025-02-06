@@ -1,1 +1,105 @@
-/nix/store/zgmgk9srip99s6xblk2lmqayykhs3kvn-home-manager-files/.config/i3/config
+font pango:hack 9.000000
+floating_modifier Mod4
+default_border pixel 1
+default_floating_border normal 2
+hide_edge_borders none
+focus_wrapping yes
+focus_follows_mouse yes
+focus_on_window_activation smart
+mouse_warping output
+workspace_layout default
+workspace_auto_back_and_forth no
+client.focused #93acc3 #024d81 #dee9ee #F9B9F2 #024d81
+client.focused_inactive #10161e #93acc3 #10161e #F9B9F2 #93acc3
+client.unfocused #333333 #222222 #56769f #F9B9F2 #222222
+client.urgent #2f344a #db504a #dee9ee #F9B9F2 #db504a
+client.placeholder #0e141b #oe141b #dee9ee #F9B9F2 #oe141b
+client.background #dee9ee
+
+bindsym Mod4+0 workspace number 10
+bindsym Mod4+1 workspace number 1
+bindsym Mod4+2 workspace number 2
+bindsym Mod4+3 workspace number 3
+bindsym Mod4+4 workspace number 4
+bindsym Mod4+5 workspace number 5
+bindsym Mod4+6 workspace number 6
+bindsym Mod4+7 workspace number 7
+bindsym Mod4+8 workspace number 8
+bindsym Mod4+9 workspace number 9
+bindsym Mod4+Ctrl+Shift+Left move workspace to output left
+bindsym Mod4+Ctrl+Shift+Right move workspace to output right
+bindsym Mod4+Ctrl+Shift+h exec "setxkbmap -layout us,il -variant ,biblical && xkb-switch -s 'il(biblical)' && notify-send 'Hebrew Mode'"
+bindsym Mod4+Ctrl+Shift+u exec "setxkbmap -layout us,il -variant ,biblical && xkb-switch -s us && notify-send 'America Mode'"
+bindsym Mod4+Down focus down
+bindsym Mod4+Left focus left
+bindsym Mod4+Return exec WINIT_X11_SCALE_FACTOR=1.5 kitty
+bindsym Mod4+Right focus right
+bindsym Mod4+Shift+0 move container to workspace number 10
+bindsym Mod4+Shift+1 move container to workspace number 1
+bindsym Mod4+Shift+2 move container to workspace number 2
+bindsym Mod4+Shift+3 move container to workspace number 3
+bindsym Mod4+Shift+4 move container to workspace number 4
+bindsym Mod4+Shift+5 move container to workspace number 5
+bindsym Mod4+Shift+6 move container to workspace number 6
+bindsym Mod4+Shift+7 move container to workspace number 7
+bindsym Mod4+Shift+8 move container to workspace number 8
+bindsym Mod4+Shift+9 move container to workspace number 9
+bindsym Mod4+Shift+Down move down
+bindsym Mod4+Shift+Left move left
+bindsym Mod4+Shift+Right move right
+bindsym Mod4+Shift+Up move up
+bindsym Mod4+Shift+c exec xcolor -s
+bindsym Mod4+Shift+e exec --no-startup-id xfce4-session-logout
+bindsym Mod4+Shift+minus move scratchpad
+bindsym Mod4+Shift+q kill
+bindsym Mod4+Shift+r restart
+bindsym Mod4+Shift+s exec --no-startup-id maim -s -u | tee ~/Screenshots/$(date +'%Y-%m-%d_%H-%M-%S').png | xclip -selection clipboard -t image/png
+bindsym Mod4+Shift+space floating toggle
+bindsym Mod4+Up focus up
+bindsym Mod4+a focus parent
+bindsym Mod4+d exec --no-startup-id "rofi -modi 'drun,run' -show drun"
+bindsym Mod4+e layout toggle split
+bindsym Mod4+f fullscreen toggle
+bindsym Mod4+h split h
+bindsym Mod4+minus scratchpad show
+bindsym Mod4+r mode resize
+bindsym Mod4+s layout stacking
+bindsym Mod4+space focus mode_toggle
+bindsym Mod4+v split v
+bindsym Mod4+w layout tabbed
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -1%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +1%
+
+mode "resize" {
+  bindsym Down resize grow height 10 px or 10 ppt
+  bindsym Escape mode default
+  bindsym Left resize shrink width 10 px or 10 ppt
+  bindsym Return mode default
+  bindsym Right resize grow width 10 px or 10 ppt
+  bindsym Up resize shrink height 10 px or 10 ppt
+}
+
+bar {
+  font pango:hack 9.000000
+  position top
+  status_command i3status
+  i3bar_command /nix/store/n5r786vwx3lc8by05g9r49x336ibay2w-i3-4.24/bin/i3bar -t
+  colors {
+    background #0f151d
+    statusline #dee9ee
+    separator #dee9ee
+    focused_workspace #93acc3 #024d81 #dee9ee
+    active_workspace #2f343a #1d2735 #dee9ee
+    inactive_workspace #2f343a #1d2735 #56769f
+    urgent_workspace #2f343a #db504a #dee9ee
+    binding_mode #2f343a #db504a #dee9ee
+  }
+}
+
+gaps inner 5
+exec  nm-applet
+exec_always  dunst -config ~/.config/dunst/dunstrc
+exec  discord
+exec  seafile-applet
+exec_always  feh --bg-scale /etc/nixos/wallpapers/tv_severance_lumon.png

@@ -1,0 +1,39 @@
+# Ignore everything
+*
+
+# Include gitignore file
+!.gitignore
+
+# Include specified directories and all their contents
+!Code/
+!Code/**
+
+!dunst/
+!dunst/**
+
+!i3/
+!i3/**
+
+!i3status/
+!i3status/**
+
+!kitty/
+!kitty/**
+
+!nvim/
+!nvim/**
+
+!picom/
+!picom/**
+
+!PrusaSlicer/
+!PrusaSlicer/**
+
+!Thunar/
+!Thunar/**
+
+!xfce4/
+!xfce4/**
+
+!discord/
+!discord/settings.json

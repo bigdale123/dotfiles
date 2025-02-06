@@ -1,0 +1,16 @@
+2025-02-03 11:10:44.078 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:10:44.090 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:10:44.091 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:10:44.611 [info] Started local extension host with pid 10045.
+2025-02-03 11:10:45.877 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-03 11:10:48.084 [info] [perf] Render performance baseline is 38ms
+2025-02-03 11:10:51.715 [error] Timed out waiting for authentication provider to register
+2025-02-03 11:11:22.401 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:11:22.402 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:11:22.402 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-03 11:11:22.735 [info] Started local extension host with pid 10180.
+2025-02-03 11:11:23.628 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-02-03 11:11:25.391 [info] [perf] Render performance baseline is 36ms
+2025-02-03 11:11:29.036 [error] Timed out waiting for authentication provider to register
+2025-02-03 17:11:56.369 [error] [network] #83: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-02-03 17:11:56.380 [warning] Failed to fetch chat participant registry Failed to fetch

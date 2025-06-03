@@ -10,6 +10,7 @@
     ],
     "modules-right": [
       "wireplumber",
+      "load",
       "tray"
     ],
     "position": "top"

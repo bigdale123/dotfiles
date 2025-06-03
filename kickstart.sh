@@ -26,12 +26,10 @@ sudo pacman -Sy --noconfirm\
 	scribus\
 	cool-retro-term\
 	python\
-	jre-openjdk\
 	rustup\
 	make\
 	gcc\
 	gdb\
-	ocs-url\
 	tailscale\
 	tesseract\
 	imagemagick\
@@ -54,7 +52,7 @@ sudo pacman -Sy --noconfirm\
 	mpv\
 	vagrant
 # installing AUR packages
-yay -SyYgu\
+yay -Sy\
 	moonlight-qt\
 	seafile-client\
 	zoom\

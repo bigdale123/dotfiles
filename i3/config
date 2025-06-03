@@ -48,8 +48,8 @@ bindsym Mod4+Shift+Down move down
 bindsym Mod4+Shift+Left move left
 bindsym Mod4+Shift+Right move right
 bindsym Mod4+Shift+Up move up
-bindsym Mod4+Shift+c exec xcolor -s
-bindsym Mod4+Shift+e exec --no-startup-id xfce4-session-logout
+bindsym Mod4+Shift+c exec --no-startup-id xcolor -s clipboard
+bindsym Mod4+Shift+e exec --no-startup-id "rofi -modi 'power-menu:~/.config/rofi/rofi-power-menu --no-symbols' -show power-menu"
 bindsym Mod4+Shift+minus move scratchpad
 bindsym Mod4+Shift+q kill
 bindsym Mod4+Shift+r restart
@@ -57,7 +57,8 @@ bindsym Mod4+Shift+s exec --no-startup-id maim -s -u | tee ~/Screenshots/$(date 
 bindsym Mod4+Shift+space floating toggle
 bindsym Mod4+Up focus up
 bindsym Mod4+a focus parent
-bindsym Mod4+d exec --no-startup-id "rofi -modi 'drun,run' -show drun"
+bindsym Mod4+d exec --no-startup-id "rofi -modi drun -show drun"
+bindsym Mod4+Shift+d exec --no-startup-id "rofi -modi emoji -show emoji"
 bindsym Mod4+e layout toggle split
 bindsym Mod4+f fullscreen toggle
 bindsym Mod4+h split h
@@ -67,9 +68,15 @@ bindsym Mod4+s layout stacking
 bindsym Mod4+space focus mode_toggle
 bindsym Mod4+v split v
 bindsym Mod4+w layout tabbed
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +1%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -1%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +1%
+bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86MonBrightnessUp exec brightnessctl s 10%+
+bindsym XF86MonBrightnessDown exec brightnessctl s 10%-
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioPrev exec playerctl previous
 
 mode "resize" {
   bindsym Down resize grow height 10 px or 10 ppt
@@ -84,7 +91,7 @@ bar {
   font pango:hack 9.000000
   position top
   status_command i3status
-  i3bar_command /nix/store/n5r786vwx3lc8by05g9r49x336ibay2w-i3-4.24/bin/i3bar -t
+  i3bar_command i3bar -t
   colors {
     background #0f151d
     statusline #dee9ee
@@ -99,7 +106,10 @@ bar {
 
 gaps inner 5
 exec  nm-applet
+exec playerctld daemon
 exec_always  dunst -config ~/.config/dunst/dunstrc
+exec picom -b
+exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 exec  discord
 exec  seafile-applet
-exec_always  feh --bg-scale /etc/nixos/wallpapers/tv_severance_lumon.png
+exec_always  feh --bg-scale ~/.config/wallpapers/tv_severance_lumon.png

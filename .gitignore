@@ -6,9 +6,29 @@
 !kickstart.sh
 
 # Include specified directories and all their contents
+!alacritty/
+!alacritty/**
+
+!BambuStudio/
+!BambuStudio/user/
+!BambuStudio/user/**
+
+!BambuStudioBeta/
+!BambuStudioBeta/user/
+!BambuStudioBeta/user/**
+
+
+!discord/
+!discord/settings.json
 
 !dunst/
 !dunst/**
+
+!fish/
+!fish/**
+
+!hypr/
+!hypr/**
 
 !i3/
 !i3/**
@@ -16,17 +36,8 @@
 !i3status/
 !i3status/**
 
-!waybar/
-!waybar/**
-
-!hypr/
-!hypr/**
-
 !kitty/
 !kitty/**
-
-!alacritty/
-!alacritty/**
 
 !nvim/
 !nvim/**
@@ -37,11 +48,11 @@
 !PrusaSlicer/
 !PrusaSlicer/**
 
-!xfce4/
-!xfce4/**
-
-!discord/
-!discord/settings.json
-
 !wallpapers/
 !wallpapers/**
+
+!waybar/
+!waybar/**
+
+!xfce4/
+!xfce4/**

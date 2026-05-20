@@ -2,12 +2,15 @@
   "SKIP_HOST_UPDATE": true,
   "chromiumSwitches": {},
   "BACKGROUND_COLOR": "#121214",
-  "IS_MAXIMIZED": true,
+  "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 3846,
-    "y": 29,
-    "width": 951,
-    "height": 1045
-  }
+    "x": 966,
+    "y": 41,
+    "width": 943,
+    "height": 1028
+  },
+  "offloadAdmControls": true,
+  "enableLibOpenH264Electron": false,
+  "openH264Enabled": true
 }

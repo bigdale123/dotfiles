@@ -1,0 +1,85 @@
+{
+    "bridge_angle": "45",
+    "bridge_speed": [
+        "25",
+        "nil"
+    ],
+    "brim_type": "brim_ears",
+    "default_acceleration": [
+        "6000",
+        "nil"
+    ],
+    "detect_thin_wall": "1",
+    "embedding_wall_into_infill": "1",
+    "from": "User",
+    "gap_infill_speed": [
+        "150",
+        "nil"
+    ],
+    "infill_combination": "1",
+    "infill_wall_overlap": "30%",
+    "inherits": "0.20mm Standard @BBL P2S",
+    "inner_wall_speed": [
+        "200",
+        "nil"
+    ],
+    "internal_solid_infill_speed": [
+        "200",
+        "nil"
+    ],
+    "is_infill_first": "1",
+    "max_travel_detour_distance": "50%",
+    "name": "0.20mm Standard @BBL P2S - Copy",
+    "outer_wall_acceleration": [
+        "3000",
+        "nil"
+    ],
+    "outer_wall_speed": [
+        "100",
+        "nil"
+    ],
+    "prime_tower_brim_width": "-1",
+    "print_extruder_id": [
+        "1",
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "print_settings_id": "0.20mm Standard @BBL P2S - Copy",
+    "small_perimeter_speed": [
+        "40%",
+        "nil"
+    ],
+    "small_perimeter_threshold": [
+        "3",
+        "nil"
+    ],
+    "sparse_infill_acceleration": [
+        "60%",
+        "nil"
+    ],
+    "sparse_infill_speed": [
+        "200",
+        "nil"
+    ],
+    "support_speed": [
+        "100",
+        "nil"
+    ],
+    "top_surface_acceleration": [
+        "1500",
+        "nil"
+    ],
+    "top_surface_speed": [
+        "100",
+        "nil"
+    ],
+    "travel_acceleration": [
+        "6000",
+        "nil"
+    ],
+    "version": "2.5.0.14",
+    "wall_loops": "3"
+}

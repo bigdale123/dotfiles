@@ -1,0 +1,18 @@
+[
+  {
+    "height": 15,
+    "layer": "top",
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "wireplumber",
+      "load",
+      "tray"
+    ],
+    "position": "top"
+  }
+]

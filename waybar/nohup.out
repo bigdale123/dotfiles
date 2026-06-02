@@ -1,0 +1,7 @@
+[2026-05-20 21:57:14.602] [info] Using configuration file /home/dylan/.config/waybar/config.jsonc
+[2026-05-20 21:57:14.609] [info] Using CSS file /etc/xdg/waybar/style.css
+[2026-05-20 21:57:14.621] [info] Hyprland IPC starting
+[2026-05-20 21:57:14.633] [info] Loading persistent workspaces from Hyprland workspace rules
+Discharging
+[2026-05-20 21:57:14.785] [info] Bar configured (width: 1920, height: 30) for output: eDP-1
+Gdk-Message: 21:58:00.624: Error reading events from display: Broken pipe

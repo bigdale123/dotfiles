@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "0.12mm High Quality @BBL P2S",
+    "name": "0.12mm High Quality @BBL P2S - Copy",
+    "print_extruder_id": [
+        "1",
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "print_settings_id": "0.12mm High Quality @BBL P2S - Copy",
+    "version": "2.5.0.15",
+    "wall_generator": "arachne"
+}

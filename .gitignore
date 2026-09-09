@@ -36,6 +36,9 @@
 !i3status/
 !i3status/**
 
+!kanshi/
+!kanshi/**
+
 !kitty/
 !kitty/**
 
